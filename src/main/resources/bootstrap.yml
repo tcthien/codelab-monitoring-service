@@ -8,7 +8,8 @@ spring:
       password: ${CODELAB_PASS}
       username: ${CODELAB_USER}
       
+turbine:
+  stream:
+    port: 20085
 server:
   port: 20086
-management:
-  port: 20085
