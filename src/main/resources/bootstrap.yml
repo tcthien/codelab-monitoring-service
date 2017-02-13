@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: codelab-monitoring
+  cloud:
+    config:
+      uri: http://codelab-config:20088
+      fail-fast: true
+      password: ${CODELAB_PASS}
+      username: ${CODELAB_USER}
+      
+server:
+  port: 20086
+management:
+  port: 20085
