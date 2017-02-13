@@ -4,4 +4,4 @@ MAINTAINER Thien Tran <thientran1986@gmail.com>
 ADD ./target/codelab-monitoring.jar /app/
 CMD ["java", "-Xmx200m", "-jar", "/app/codelab-monitoring.jar"]
 
-EXPOSE 8989 8080
+EXPOSE 20086 20085
