@@ -1,6 +1,6 @@
 spring:
   application:
-    name: codelab-monitoring
+    userName: codelab-monitoring
   cloud:
     config:
       uri: http://codelab-config-service:20088
